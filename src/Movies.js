@@ -30,7 +30,7 @@ class Movies extends Component{
 				<div className = "list">
 
 				
-				{/*<img src={`http://image.tmdb.org/t/p/w300${movie.poster_path}`} />*/}
+				<img src={`http://image.tmdb.org/t/p/w300${movie.poster_path}`} />
 
 				<Link to={`/movies/${movie.id}`} key={index}><h3>{movie.title}</h3>
 				</Link>
